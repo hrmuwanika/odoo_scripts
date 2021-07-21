@@ -1,2 +1,2 @@
-# odoo_scripts
+# odoo scripts
 Odoo scripts to save my day
