@@ -10,7 +10,7 @@
 # 0 */3 * * * /opt/script/restore_odoo.sh  
 
 # vars
-BACKUP_DIR=~/odoo_backups
+BACKUP_DIR=~/odoo_backups          # containing filestore folder and sql dump
 ODOO_DATABASE=odoodb1
 ODOO_USER=odoo
 
