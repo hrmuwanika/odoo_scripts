@@ -5,7 +5,7 @@
 # wget https://raw.githubusercontent.com/hrmuwanika/odoo_scripts/main/backup_odoo.sh 
 # sudo chmod +x backup_odoo.sh
 
-# To backup every 1 hours
+# To backup every 1 hour
 # sudo crontab -e
 # 0 */1 * * * /opt/script/backup_odoo.sh  
 
