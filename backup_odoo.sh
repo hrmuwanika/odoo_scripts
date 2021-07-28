@@ -22,7 +22,7 @@ curl -X POST \
     -F "master_pwd=${ADMIN_PASSWORD}" \
     -F "name=${ODOO_DATABASE}" \
     -F "backup_format=zip"  \
-    -o ${BACKUP_DIR}/${ODOO_DATABASE}.$(date +%F-%H-%M).zip  \
+    -o ${BACKUP_DIR}/${ODOO_DATABASE}_$(date +%F-%H-%M).zip  \
     http://localhost:8069/web/database/backup
 
 # delete old backups if older than 30 days
